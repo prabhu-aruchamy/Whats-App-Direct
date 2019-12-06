@@ -16,7 +16,7 @@ You can download by clicking [here](https://thelordtech.com/Apps/whatsappdirect.
 ### Install and contribute
 
 ```sh
-$ git clone https://github.com/Akshat-Jain/Whats-App-Direct.git
+$ git clone https://github.com/thelordtech/Whats-App-Direct.git
 ```
 Then open in Android Studio.
 # Whats-App-Direct
