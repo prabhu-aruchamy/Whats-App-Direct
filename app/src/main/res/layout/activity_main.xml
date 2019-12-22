@@ -33,16 +33,25 @@
         android:layout_gravity="center"
         />
 
-    <EditText
-        android:id="@+id/inputField"
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:id="@+id/username_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="phone"
-        android:hint="Enter Phone Number with Country Code"
-        android:textColorHint="#fff"
-        android:textColor="#fff"
-        android:layout_marginTop="10dp"/>
+        app:mtf_hasFocus="true"
+        app:mtf_image="@drawable/ic_contact"
+        app:mtf_labelColor="#fff">
+
+        <EditText
+            android:id="@+id/inputField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="Enter Phone Number with Country Code"
+            android:textColorHint="#fff" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+
 
     <TextView
         android:layout_width="wrap_content"
